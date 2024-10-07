@@ -52,7 +52,22 @@ input[type="email"] {
     color: #333;
 }
 
-div > input[type="checkbox"] {
-    margin-right: 10px;
-    margin-bottom: 10px;
+.checkbox-container {
+    margin-bottom: 20px; /* Espaçamento entre o título e os checkboxes */
+}
+
+.checkbox-container div {
+    display: flex; /* Faz com que o checkbox e o texto fiquem na mesma linha */
+    align-items: center; /* Alinha verticalmente o checkbox e o texto */
+    margin-bottom: 10px; /* Espaçamento entre os checkboxes */
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 10px; /* Espaço entre o checkbox e o texto */
+}
+
+.checkbox-container label {
+    font-weight: bold;
+    margin-bottom: 10px; /* Espaço entre o título e os checkboxes */
+    display: block; /* Certifique-se que o label ocupa toda a largura */
 }

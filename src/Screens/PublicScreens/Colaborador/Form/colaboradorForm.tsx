@@ -50,7 +50,7 @@ export function ColaboradorForm() {
 						<label htmlFor="sobre-voce">Sobre você</label>
 						<input type="text" id="sobre-voce" name="sobre-voce" />
 					</div>
-					<div>
+					<div className="checkbox-container">
 						<label htmlFor="">Como descobriu o João de Barro</label>
 						<div><input type="checkbox" name="" id="" /> <span>Ja fui ajudado(a) por ela</span></div>
 						<div><input type="checkbox" name="" id="" /> <span>Por meio de amigos</span></div>
@@ -69,10 +69,10 @@ export function ColaboradorForm() {
                         <label htmlFor="">Materiais e quantidade para doação</label>
                         <textarea name="" id=""></textarea>
                     </div>
-                    <div>
+                    <div className="checkbox-container">
                         <label htmlFor="">Deseja receber informações sobre os impactos das doações e novidades?</label>
                         <div><input type="checkbox" name="" id="" /> <span>Sim! Desejo receber novidades da João de Barro.</span></div>
-                        <div><input type="checkbox" name="" id="" /> <span>Li e aceito as Políticas de Privacidade.</span></div>
+                        <div><input type="checkbox" name="" id="" /> <span>Li e aceito as Políticas de Privacidade.</span></div>
                     </div>
 				</form>
 			</div>
