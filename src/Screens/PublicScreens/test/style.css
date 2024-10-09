@@ -169,7 +169,7 @@
 	transition: background-color 0.3s ease; /* Animação suave na cor de fundo */
 }
 
-.volunteer-btn-orange:hover {
+.voluntario-btn-orange:hover {
 	background-color: #db592a; /* Muda a cor ao passar o mouse */
 	padding: 20px;
 }
