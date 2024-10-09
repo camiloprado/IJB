@@ -36,6 +36,8 @@ import { Voluntarios } from "./Screens/PublicScreens/Voluntarios/index.tsx";
 import { ColaboradorForm } from "./Screens/PublicScreens/Colaborador/Form/colaboradorForm.tsx";
 import { Colaborador } from "./Screens/PublicScreens/Colaborador/index.tsx";
 import { Apoiador } from "./Screens/PublicScreens/Apoiador/index.tsx";
+import { ApoiadorForm } from "./Screens/PublicScreens/Apoiador/Form/apoiadorForm.tsx";
+import { VoluntariosForm } from "./Screens/PublicScreens/Voluntarios/Form/voluntariosForm.tsx";
 
 function App() {
   return (
@@ -50,11 +52,11 @@ function App() {
           <Route path="beneficiarios" element={<Beneficiarios />} />
           {/* TODO: adicionar as telas corretas */}
           <Route path="voluntarios" element={<Voluntarios /> }/>
-          <Route path="voluntarios/form" element/>
+          <Route path="voluntarios/form" element={<VoluntariosForm />}/>
           <Route path="colaborador" element={<Colaborador />}/>
           <Route path="colaborador/form" element={<ColaboradorForm />}/>
           <Route path="apoiador" element={<Apoiador />}/>
-          <Route path="apoiador/form" element/>
+          <Route path="apoiador/form" element={<ApoiadorForm />}/>
           <Route path="test" element={<Test />} />
         </Route>
 
